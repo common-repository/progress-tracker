@@ -1,0 +1,26 @@
+
+
+.ASPTenabled {
+	color:				#090;
+	font-weight:		600;
+	font-size:			14px;
+}
+
+#enableProgressTracking_div {
+	min-height:			30px;
+	padding-bottom:		0px;
+}
+
+#enableProgressTracking_div h3 {
+	padding-left:		0;
+}
+
+.aspt-spinner-on {
+	background:			url('images/loader.gif') no-repeat 60% 30px;
+}
+
+
+#ASPT_tickWrap,
+#ASPT_messageWrap {
+	min-height: 		35px;
+}

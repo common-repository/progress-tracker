@@ -1,0 +1,178 @@
+
+/* --- Tabs --- */
+.as-tabbuttons-wrap {
+	position:relative;
+	min-height:30px;
+	padding:15px 0 0 0; 
+	width:auto; 
+	overflow:visible;
+}
+.as-tabbutton { 
+	float:left; 
+	padding:9px 36px 12px 32px; 
+	font-size:17px;
+	margin:0;
+	background:#e9e9e9;  
+	font-weight:500; 
+	-webkit-border-top-left-radius: 1px;
+	-webkit-border-top-right-radius: 1px;
+	-moz-border-radius-topleft: 1px;
+	-moz-border-radius-topright: 1px;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	border-bottom:1px solid #fcfcfc;
+	cursor:pointer;
+	color:#707070;
+	font-family: "Open Sans",sans-serif;
+	line-height:24px;
+}
+.as-tabbutton:hover {
+	background:#ededed;
+	text-decoration:none;
+}
+
+
+
+.active-tab	{
+	border:1px solid #fcfcfc;
+	border-bottom:0px;
+	padding-left:31px;
+	padding-right:35px;
+	color:#222;
+	font-weight:500;
+	background:none;
+	margin-top:-1px;
+	text-decoration:none;
+}
+.active-tab:hover {
+	background:none;
+	text-decoration:none;
+}
+
+.as-tabbutton.first {
+	padding-left:22px;
+}
+.as-tabbutton.first.active-tab {
+	border-left:0;
+}
+.as-tabbutton.last.active-tab {
+	border-right:0;
+}
+
+
+
+
+
+
+.as-tabs-wrap { 
+	position:relative;
+	height:auto;
+	padding:10px 0 0 0;
+}
+.as-tab { 
+	position:relative;
+	height:auto;
+	padding:20px 0px 40px 22px;
+	background:#f1f1f1;
+	display:	none;
+}
+
+
+
+div.wrap p { margin:0 0 4px 0; }
+div.wrap h2 { font-size: 22px; line-height:10px; margin:0; padding:0; }
+div.wrap h3 { font-size: 18px; margin:0 0 8px 0px; } 
+div.wrap h4 { font-size:14px; margin:0; }
+
+
+.subheader {
+	margin-top:		15px; 
+	margin-bottom:	10px; 
+	font-weight:	500;
+	font-size: 		18px;
+	color: 			#23282d;
+}
+
+
+
+
+
+.settingsTable {
+	width:100%;
+	border-collapse:collaspe;
+}
+.settingsTable td {
+	padding: 		0 10px 10px 0;
+}	
+.settingsTable label {
+	font-size: 		14px;
+	font-weight: 	600;
+}
+.settingsTable .description {
+	font-size:		14px; 
+	margin-bottom:	10px;
+}
+
+/*
+div.wrap .settingsTable h3 {
+	font-weight:500;
+	font-size:20px;
+}
+*/
+
+
+.iconTable {}
+.iconTable td {
+	padding:			25px;
+	text-align:			center;
+	vertical-align:		center;
+}
+.iconTable {}
+
+
+.clearB { clear:both; }
+
+div.wrap p.backLink {
+	margin-top:40px; 
+	font-size:14px;
+}
+
+
+.unselectable,
+.unselectable * {
+   -moz-user-select: 		-moz-none;
+   -khtml-user-select: 		none;
+   -webkit-user-select: 	none;
+   -ms-user-select: 		none;
+   user-select: 			none;
+}
+
+
+
+
+
+
+
+
+.ptrackerReadText
+{
+	font-weight:bold;
+	color:#007A29;
+}
+
+
+.ptrackerUnreadText
+{
+	color:#CC3300;
+}
+
+
+
+.pageBreakdownDiv
+{
+	padding:20px;
+	border: solid 1px #ccc;
+	background:#fff;
+	margin:20px;
+}
+

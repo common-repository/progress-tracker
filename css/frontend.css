@@ -1,0 +1,125 @@
+
+.markAsReadWrap {
+	
+	padding: 			4x;
+	margin:				0px;
+	cursor:				default;
+	float:right;
+}
+#markAsReadButton {
+	cursor:				pointer;
+}
+#isMarkedText {
+    display: block;
+    float: left;
+	line-height:32px;
+    padding-right: 10px;
+}
+.isMarked {
+	color: #090;
+}
+#aspt_spinner {
+	padding:6px 15px;
+}
+.aspt-spinner-on {
+	background:url('images/loader.gif') no-repeat center center;
+}
+#ptrackerBackButtonDiv
+{
+	float:left;
+	display:table;
+}
+#ptrackerNextButtonDiv
+{
+	float:right;
+	display:table;
+}
+#ptrackerNextButtonDiv img, #ptrackerBackButtonDiv img
+{
+	vertical-align: middle;
+	display: table-cell;
+}
+#ptrackerNextButtonDiv span, #ptrackerBackButtonDiv span
+{
+	vertical-align: middle;
+	display: table-cell;
+	padding:3px
+}
+#ptrackerJumpBox
+{	
+	width: 50%;
+	margin:0 auto;
+	text-align: center;
+}
+.subMenuLinkUnread a
+{
+	font-weight:bolder;
+}
+.subMenuLinkRead a
+{
+	 opacity: 0.5;
+}
+.pTrackerStartButton {
+    /* Structure */
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* Firefox: Get rid of the inner focus border */
+.pTrackerStartButton::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+/*csslint outline-none:false*/
+.pTrackerStartButton {
+	text-align:right;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444; /* rgba not supported (IE 8) */
+    color: rgba(0, 0, 0, 0.80); /* rgba supported */
+    border: 1px solid #999;  /*IE 6/7/8*/
+    border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.pTrackerStartButton-hover,
+.pTrackerStartButton:hover,
+.pTrackerStartButton:focus {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0,0,0, 0.05)), to(rgba(0,0,0, 0.10)));
+    background-image: -webkit-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.10));
+    background-image: -o-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.pTrackerStartButton:focus {
+    outline: 0;
+}
+
+.thickboxContent
+{
+	color:#F00;	
+	padding-bottom:20px;
+}
+
+.ptrackerFeedback
+{
+	padding:10px;
+	background:#e2ffe3;
+	border:1px solid #030;	
+	margin-bottom:20px;
+}
